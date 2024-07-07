@@ -37,6 +37,8 @@ The modular design allows for the addition of new sensors or features, making th
 https://github.com/Abhinav-ark/ARM_TM4C123GH6PM_Weather_Monitoring/assets/76396917/d2604c1a-f7d5-4534-a5a2-c1766f69a376
 
 ## Instructions to setup
+
+### Hardware and Source Code
 - Make the Circuit Connections as per the Circuit Diagram.
 - Create a new Tiva `TM4C123GH6PM` Project in `Keil μVision-5`.
 - Select the following checkboxes in the Manage Run-Time Environment Window.
@@ -50,7 +52,17 @@ https://github.com/Abhinav-ark/ARM_TM4C123GH6PM_Weather_Monitoring/assets/763969
   <img src='./Assets/target_options.png' width='500px'/>
 </div>  
 
-- Download the code into the Microcontroller's Flash Memory (F8) and press the Reset button on the Microcontroller to run the code. 
+- Download the code into the Microcontroller's Flash Memory (F8) and press the Reset button on the Microcontroller to run the code.
+
+### Interacting with the Hardware Using Bluetooth 
+- Install the [`Serial Bluetooth Terminal`](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en_IN) App from Play Store on your Mobile Device.
+- After that turn on Bluetooth of your smartphone or Android based mobile and scan for available Bluetooth devices. You will see the HC-05 device in your scanned list. The default name for this Bluetooth device is <b>“HC-05”</b> and the default pin code is either <b>“0000”</b> or <b>“1234”</b>.
+- Now open your serial Bluetooth terminal Android application and click on menu->devices. You will find the list of available nearby Bluetooth devices.
+- Select HC-05 and the serial Bluetooth terminal starts to pair with HC-05. It will ask for the pin code and enter the pin code mentioned above.
+- After pairing, it will show a successful connection message.
+- 1. Now Type 'T' and click on the send button to get the current temperature recorded by the device.
+  2. Type 'H' and click on the send button to get the current humidity recorded by the device.
+ 
 
 
 
