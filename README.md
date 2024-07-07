@@ -64,5 +64,8 @@ https://github.com/Abhinav-ark/ARM_TM4C123GH6PM_Weather_Monitoring/assets/763969
   2. Type 'H' and click on the send button to get the current humidity recorded by the device.
  
 # LICENSING
-All code in this repository is Licensed Under `MIT license`, and is freely available for anyone to use or make changes.
+All code in this repository is Licensed Under [`MIT license`](https://github.com/Abhinav-ark/ARM_TM4C123GH6PM_Weather_Monitoring/blob/main/LICENSE), and is freely available for anyone to use or make changes.
+
+# Security Policy
+Refer [`SECURITY.md`](https://github.com/Abhinav-ark/ARM_TM4C123GH6PM_Weather_Monitoring/blob/main/SECURITY.md) for Security Policy.
 
