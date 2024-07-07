@@ -6,7 +6,7 @@
 
 A comprehensive weather monitoring system that utilizes `ADC` for efficient sensor integration, `I2C` and  `OLED` for RealTime Data Monitoring, and incorporates `Bluetooth(UART)` technology to enable wireless transmission of weather Data, fostering a reliable and user-friendly solution for real-time weather data acquisition and analysis.
 
-## Motivation:
+## Motivation
 There is a heavy demand for remote realtime Temperature and Humidity monitoring systems in multiple fields. <br>
 1. <b>Medical Instruments:</b> Certain medical instruments need to be stored at specific temperatures and humidity levels. <br>
 2. <b>Food Processing:</b> Maintaining the right temperature and humidity is crucial for food safety and quality. <br>
@@ -63,6 +63,6 @@ https://github.com/Abhinav-ark/ARM_TM4C123GH6PM_Weather_Monitoring/assets/763969
 - 1. Now Type 'T' and click on the send button to get the current temperature recorded by the device.
   2. Type 'H' and click on the send button to get the current humidity recorded by the device.
  
-
-
+# LICENSING
+All code in this repository is Licensed Under `MIT license`, and is freely available for anyone to use or make changes.
 
